@@ -30,6 +30,50 @@ header .navbar .nav-item:hover a {
   font-weight: 700;
 }
 
+/* Header Hiring */
+.dr-menu-hiring-label {
+  color: #FFFFFF;
+  background: #0080FF;
+}
+.dr-menu-label {
+  position: absolute;
+  top: -8px;
+  left: auto;
+  bottom: auto;
+  right: auto;
+  z-index: 1;
+  display: inline-block;
+  margin-left: -20px;
+  padding: 2px 5px;
+  line-height: 13px;
+  letter-spacing: .3px;
+  font-weight: 500;
+  font-size: 8px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: var(--primary-color);
+  border-radius: 10px;
+}
+.dr-menu-label:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 10px;
+  bottom: auto;
+  right: auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-top-width: 4px;
+  border-bottom-width: 0;
+  border-right-width: 7px;
+  border-left-width: 0;
+  border-top-color: transparent;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+  border-color: var(--primary-color);
+}
 /* Hero Section */
 .hero-section {
   padding: 60px 0;
@@ -111,6 +155,18 @@ ol.carousel-indicators > li {
 ol.carousel-indicators > .active {
     background: var(--primary-color);
 }
+/* Home: Contact section */
+.contact-section{
+  background: #E5F2FF;
+  padding: 56px 0;
+}
+.contact-section .home-contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 
 /* Footer Area */
 .footer-area {

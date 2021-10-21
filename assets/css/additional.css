@@ -1,10 +1,5 @@
 /* DropDown Style */
-/* Dropdown */
-header .dr-megamenu {
-  padding: 2rem 2rem 1rem 2rem;
-  min-width: 800px;
-  left: -400px;
-}
+
 .badge-alpha-soft {
   color: #8492a6;
   background-color: rgba(0, 128, 255, 0.1);
@@ -141,6 +136,12 @@ header .dr-megamenu {
   background-color: #141a1f;
 }
 
+header .dr-megamenu {
+  padding: 2rem 2rem 1rem 2rem;
+  min-width: 800px;
+  left: -400px;
+}
+
 header .dr-megamenu .dr-mega-menu-icon {
   padding: 0.6rem;
 }
@@ -180,11 +181,15 @@ header .dr-megamenu .dr-mega-menu-icon .lnr {
   /* opacity: 1;
   visibility: visible; */
 }
+.link-hover-alpha {
+  font-weight: 700;
+}
+
+
+/* Menu hover DropDown */
 header .navbar .nav-item:hover > .dropdown-menu {
   opacity: 1;
   visibility: visible;
 }
 
-.link-hover-alpha {
-  font-weight: 700;
-}
+
